@@ -153,7 +153,7 @@ namespace LaunchPad.Services
                 {"Minutely", Cron.Minutely()},
                 {"Hourly", Cron.Hourly()},
                 {"Weekly", Cron.Weekly()},
-		{"Daily", Cron.Hourly()},
+				{"Daily", Cron.Daily()},
                 {"Monthly", Cron.Monthly()},
                 {"Yearly", Cron.Yearly()}
             };

@@ -153,6 +153,7 @@ namespace LaunchPad.Services
                 {"Minutely", Cron.Minutely()},
                 {"Hourly", Cron.Hourly()},
                 {"Weekly", Cron.Weekly()},
+		{"Daily", Cron.Hourly()},
                 {"Monthly", Cron.Monthly()},
                 {"Yearly", Cron.Yearly()}
             };
@@ -297,6 +298,11 @@ namespace LaunchPad.Services
                 {
                     Text = "Weekly",
                     Value = "Weekly"
+                },
+		new SelectListItem
+                {
+                    Text = "Daily",
+                    Value = "Daily"
                 },
                 new SelectListItem
                 {
